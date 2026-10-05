@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <clipPath id="clipA1"><circle cx="165" cy="140" r="65"/></clipPath>
+  </defs>
+  <rect width="800" height="500" fill="#ffffff"/>
+
+  <!-- Panel 1: INNER JOIN -->
+  <text x="200" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1b1f24">INNER JOIN</text>
+  <circle cx="235" cy="140" r="65" fill="#4f8ef7" fill-opacity="0.65" clip-path="url(#clipA1)"/>
+  <circle cx="165" cy="140" r="65" fill="none" stroke="#1f3a6e" stroke-width="2.5"/>
+  <circle cx="235" cy="140" r="65" fill="none" stroke="#1f3a6e" stroke-width="2.5"/>
+  <text x="130" y="146" text-anchor="middle" font-size="20" font-weight="700" fill="#1b1f24">A</text>
+  <text x="270" y="146" text-anchor="middle" font-size="20" font-weight="700" fill="#1b1f24">B</text>
+  <text x="200" y="232" text-anchor="middle" font-size="15" fill="#444">Only the rows that match in both</text>
+
+  <!-- Panel 2: LEFT JOIN -->
+  <text x="600" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1b1f24">LEFT JOIN</text>
+  <circle cx="565" cy="140" r="65" fill="#4f8ef7" fill-opacity="0.65"/>
+  <circle cx="565" cy="140" r="65" fill="none" stroke="#1f3a6e" stroke-width="2.5"/>
+  <circle cx="635" cy="140" r="65" fill="none" stroke="#1f3a6e" stroke-width="2.5"/>
+  <clipPath id="clipA2"><circle cx="565" cy="140" r="65"/></clipPath>
+  <circle cx="635" cy="140" r="65" fill="#4f8ef7" fill-opacity="0.65" clip-path="url(#clipA2)"/>
+  <text x="530" y="146" text-anchor="middle" font-size="20" font-weight="700" fill="#1b1f24">A</text>
+  <text x="670" y="146" text-anchor="middle" font-size="20" font-weight="700" fill="#1b1f24">B</text>
+  <text x="600" y="232" text-anchor="middle" font-size="15" fill="#444">All of A, plus the matches from B</text>
+
+  <!-- Panel 3: RIGHT JOIN -->
+  <text x="200" y="290" text-anchor="middle" font-size="22" font-weight="700" fill="#1b1f24">RIGHT JOIN</text>
+  <circle cx="235" cy="390" r="65" fill="#4f8ef7" fill-opacity="0.65"/>
+  <circle cx="165" cy="390" r="65" fill="none" stroke="#1f3a6e" stroke-width="2.5"/>
+  <circle cx="235" cy="390" r="65" fill="none" stroke="#1f3a6e" stroke-width="2.5"/>
+  <clipPath id="clipB3"><circle cx="235" cy="390" r="65"/></clipPath>
+  <circle cx="165" cy="390" r="65" fill="#4f8ef7" fill-opacity="0.65" clip-path="url(#clipB3)"/>
+  <text x="130" y="396" text-anchor="middle" font-size="20" font-weight="700" fill="#1b1f24">A</text>
+  <text x="270" y="396" text-anchor="middle" font-size="20" font-weight="700" fill="#1b1f24">B</text>
+  <text x="200" y="482" text-anchor="middle" font-size="15" fill="#444">All of B, plus the matches from A</text>
+
+  <!-- Panel 4: FULL JOIN -->
+  <text x="600" y="290" text-anchor="middle" font-size="22" font-weight="700" fill="#1b1f24">FULL JOIN</text>
+  <circle cx="565" cy="390" r="65" fill="#4f8ef7" fill-opacity="0.65"/>
+  <circle cx="635" cy="390" r="65" fill="#4f8ef7" fill-opacity="0.65"/>
+  <circle cx="565" cy="390" r="65" fill="none" stroke="#1f3a6e" stroke-width="2.5"/>
+  <circle cx="635" cy="390" r="65" fill="none" stroke="#1f3a6e" stroke-width="2.5"/>
+  <text x="530" y="396" text-anchor="middle" font-size="20" font-weight="700" fill="#1b1f24">A</text>
+  <text x="670" y="396" text-anchor="middle" font-size="20" font-weight="700" fill="#1b1f24">B</text>
+  <text x="600" y="482" text-anchor="middle" font-size="15" fill="#444">Everything from both tables</text>
+</svg>
