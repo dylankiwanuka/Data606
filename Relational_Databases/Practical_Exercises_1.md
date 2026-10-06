@@ -256,4 +256,6 @@ WHERE lastName = 'Cooper';
 SELECT * FROM spartans;
 SELECT * FROM courses;
 ```
+
+# Proposed Entity Relationship Diagram
 ![Sparta Global ERD](images/sparta_erd.png)
